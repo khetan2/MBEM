@@ -33,7 +33,7 @@ in each of the plots,
 achieving the minimum generalization error 
 with many singly annotated training examples.
 
-On x-axis is the redundancy, the number of labels collected for each example. y-axis shows the generalization error for the three algorithms. 
+On x-axis is the redundancy, the number of labels collected for each example. y-axis shows the generalization error for the three algorithms. Solid lines represent top-5 error, dashed-lines represent top-1 error.
 
 ![Figure 1][logo]
 
