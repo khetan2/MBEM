@@ -33,6 +33,7 @@ in each of the plots,
 achieving the minimum generalization error 
 with many singly annotated training examples.
 
+![Figure 1][logo] 
 ![Figure 1][logo]
 
 [logo]: https://github.com/khetan2/MBEM/blob/master/2_chs.png
