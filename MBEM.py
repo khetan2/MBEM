@@ -8,6 +8,9 @@ from scipy import stats
 from random import shuffle
 from __future__ import division
 
+from functions import generate_workers, generate_labels_weight, majority_voting, post_prob_DS
+from resnet import train, max_val_epoch
+
 # Downloading data for CIFAR10
 # The following function downloads .rec iterator and .lst files (MXNET iterators) for CIFAR10 
 # that are used for training the deep learning model with noisy annotations
