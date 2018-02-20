@@ -32,3 +32,4 @@ MBEM outperforms baselines
 in each of the plots, 
 achieving the minimum generalization error 
 with many singly annotated training examples.
+[logo]: https://github.com/khetan2/MBEM/blob/master/2_chs.pdf
