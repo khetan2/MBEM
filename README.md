@@ -28,8 +28,7 @@ In the figure below, we fix total annotation budget to be 1.2M
 and vary redundancy from 1 to 9. 
 When redundancy is 9, we have only (1.2/9)M training examples,
 each labeled by 9 workers. 
-MBEM outperforms baselines
-in each of the plots, 
+MBEM outperforms baselines 
 achieving the minimum generalization error 
 with many singly annotated training examples.
 
