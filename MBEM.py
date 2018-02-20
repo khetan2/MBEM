@@ -89,7 +89,7 @@ def main(fname,n,n1,k,conf,samples,repeat,epochs,depth,gpus):
     # calling the "call_train" function which besides printing the generalization error 
     # returns model prediction on the training examples, which is being stored in the variable "naive_pred".
     naive_pred, val_acc = call_train(n,samples,k,naive_agg[valid],workers_val_label,fname,epochs,depth,gpus)
-    print "generalization_acc:  " + str(val_acc)
+    print "generalization_error:  " + str(val_acc)
 
     print "Algorithm: MBEM:\t\t\t",    
     # running the proposed algorithm "MBEM: model bootstrapped expectation maximization" 
