@@ -34,6 +34,7 @@ achieving the minimum generalization error
 with many singly annotated training examples.
 
 On x-axis is the redundancy, the number of labels collected for each example. y-axis shows the generalization error for the three algorithms. 
+
 ![Figure 1][logo]
 
 [logo]:https://github.com/khetan2/MBEM/blob/master/2_chs.png     
