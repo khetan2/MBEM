@@ -1,4 +1,6 @@
 # The following code implements ResNet using MXNET. It is copied from https://github.com/tornadomeet/ResNet/.
+import mxnet as mx
+import numpy as np
 def train(gpus,fname,workers_train_label,workers_val_label,numepoch,batch_size,depth = 20,lr=0.5):    
     output_filename = "tr_err.txt"
     model_num = 1
