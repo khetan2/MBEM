@@ -1,3 +1,4 @@
+import numpy as np
 def generate_workers(m,k,gamma,class_wise):
     # Generating worker confusion matrices according to class-wise hammer-spammer distribution if class_wise ==1
     # Generating worker confusion matrices according to hammer-spammer distribution if class_wise ==0    
