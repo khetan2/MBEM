@@ -1,3 +1,4 @@
+from __future__ import division
 import mxnet as mx
 import numpy as np
 import logging,os
@@ -6,7 +7,6 @@ import urllib
 import logging,os,sys
 from scipy import stats
 from random import shuffle
-from __future__ import division
 
 from functions import generate_workers, generate_labels_weight, majority_voting, post_prob_DS
 from resnet import train, max_val_epoch
