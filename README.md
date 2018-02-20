@@ -8,7 +8,7 @@ we show empirically that it is better to choose the former case, that is collect
 For running the code call "python MBEM.py". The code requires Python2, [Apache MXNet](https://mxnet.incubator.apache.org/), numpy and scipy packages. 
 If a GPU is available, change line 34 in MBEM.py from gpus = None to gpus = '0'. 
 
-# Numerical Results on ImageNet dataset
+## Numerical Results on ImageNet dataset
 The ImageNet-1K dataset contains 1.2M training examples and 50K validation examples. 
 We divide test set in two parts: 10K for validation and 40K for test. 
 Each example belongs to one of the possible 1000 classes. 
