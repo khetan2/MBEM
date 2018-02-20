@@ -76,7 +76,7 @@ def main(fname,n,n1,k,conf,samples,repeat,epochs,depth,gpus):
     # for "epochs" run using the available "gpus". 
     # it prints the generalization error of the trained model.
     _, val_acc = call_train(n,samples,k,pred_mv,workers_val_label,fname,epochs,depth,gpus)
-    print "generalization_acc:  " + str(val_acc)
+    print "generalization_error:  " + str(val_acc)
     
     print "Algorithm: weighted majority vote:\t", 
     # running the another baseline algorithm where the aggregation is performed using the weighted majority vote
@@ -102,7 +102,7 @@ def main(fname,n,n1,k,conf,samples,repeat,epochs,depth,gpus):
     # calling the "call_train" function with aggregated labels being the posterior probability distribution of the 
     # examples given the model prediction obtained using the "weighted majority vote" algorithm.
     _, val_acc = call_train(n,samples,k,algo_agg[valid],workers_val_label,fname,epochs,depth,gpus)
-    print "generalization_acc:  " + str(val_acc)
+    print "generalization_error:  " + str(val_acc)
     
 def call_train(n,samples,k,workers_train_label_use,workers_val_label,fname,epochs,depth,gpus):
     # this function takes as input aggregated labels of the training examples
