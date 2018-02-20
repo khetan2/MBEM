@@ -35,4 +35,4 @@ with many singly annotated training examples.
 
 ![Figure 1][logo] 
 
-[logo]: https://github.com/khetan2/MBEM/blob/master/2_chs.png
+[logo]: https://github.com/khetan2/MBEM/blob/master/2_chs.png 
