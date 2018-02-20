@@ -38,7 +38,7 @@ gpus = None #'0,1,2,3' # if there are no gpus available set it to None.
 # and 0 if workers are hammer-spammer
 # k is the number of classification classes, 
 # epochs is the number of epochs for ResNet model
-m, gamma, class_wise, epochs, depth  = 100, 0.2, 0, 2, 20
+m, gamma, class_wise, epochs, depth  = 100, 0.2, 0, 60, 20
 
 #### main function ####    
 def main(fname,n,n1,k,conf,samples,repeat,epochs,depth,gpus):    
