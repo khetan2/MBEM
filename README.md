@@ -24,7 +24,7 @@ Note that without this assumption,
 there is little hope of estimating a 1000 X 1000 confusion matrix 
 for each worker by collecting only approximately 1200 noisy labels from a worker. 
 For rest of the settings, please refer to the [Learning From Noisy Singly-labeled Data](https://openreview.net/forum?id=H1sUHgb0Z) paper. 
-In the figures below, we fix total annotation budget to be 1.2M 
+In the figure below, we fix total annotation budget to be 1.2M 
 and vary redundancy from 1 to 9. 
 When redundancy is 9, we have only (1.2/9)M training examples,
 each labeled by 9 workers. 
@@ -34,6 +34,5 @@ achieving the minimum generalization error
 with many singly annotated training examples.
 
 ![Figure 1][logo] 
-![Figure 1][logo]
 
 [logo]: https://github.com/khetan2/MBEM/blob/master/2_chs.png
